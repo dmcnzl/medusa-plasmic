@@ -2,9 +2,9 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 import { PageParamsProvider as PageParamsProvider__ } from "@plasmicapp/react-web/lib/host";
-import GlobalContextsProvider from "../components/plasmic/style_in_form/PlasmicGlobalContextsProvider";
-import { ScreenVariantProvider } from "../components/plasmic/style_in_form/PlasmicGlobalVariant__Screen";
-import { PlasmicCategory } from "../components/plasmic/style_in_form/PlasmicCategory";
+import GlobalContextsProvider from "../components/plasmic/medusa_2_3_1/PlasmicGlobalContextsProvider";
+
+import { PlasmicCategory } from "../components/plasmic/medusa_2_3_1/PlasmicCategory";
 import { useRouter } from "next/router";
 
 function Category() {
@@ -24,6 +24,7 @@ function Category() {
   // variant context providers. These wrappers may be moved to
   // Next.js Custom App component
   // (https://nextjs.org/docs/advanced-features/custom-app).
+
   return (
     <GlobalContextsProvider>
       <PageParamsProvider__

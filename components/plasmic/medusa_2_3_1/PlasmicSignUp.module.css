@@ -1,0 +1,230 @@
+.root {
+  display: grid;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  justify-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.root > * {
+  grid-column: 4;
+}
+.freeBox__p5L7K {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  grid-column-start: 3 !important;
+  grid-column-end: -3 !important;
+  min-height: 0;
+  padding: 8px;
+}
+.freeBox__va4Gw {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__va4Gw > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 50px);
+  height: calc(100% + 50px);
+}
+.freeBox__va4Gw > :global(.__wab_flex-container) > *,
+.freeBox__va4Gw > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__va4Gw > :global(.__wab_flex-container) > picture > img,
+.freeBox__va4Gw
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 50px;
+}
+.h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.25;
+  position: relative;
+  text-align: center;
+}
+.form:global(.__wab_instance) {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  object-fit: cover;
+  min-width: 0;
+  padding: 8px;
+}
+.formField__hlTdW:global(.__wab_instance) {
+  width: 100%;
+  margin-bottom: 24px;
+  max-width: 100%;
+  object-fit: cover;
+  min-width: 0;
+}
+.textInput2:global(.__wab_instance) {
+  max-width: 100%;
+}
+.svg__qkCb {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.svg__qP2TQ {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.text__iH9Xo {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  min-width: 100px;
+}
+.formField__iDzXs:global(.__wab_instance) {
+  width: 100%;
+  margin-bottom: 24px;
+  max-width: 100%;
+  object-fit: cover;
+  min-width: 0;
+}
+.textInput5:global(.__wab_instance) {
+  max-width: 100%;
+}
+.svg__rMb0U {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.svg___8Ubis {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.text__z7Eh {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  min-width: 100px;
+}
+.formField___5Xcgo:global(.__wab_instance) {
+  width: 100%;
+  margin-bottom: 24px;
+  max-width: 100%;
+  object-fit: cover;
+  min-width: 0;
+}
+.textInput6:global(.__wab_instance) {
+  max-width: 100%;
+}
+.svg__aY2Rk {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.svg___2CAu {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.text__bcOuv {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  min-width: 100px;
+}
+.formField__tZb7M:global(.__wab_instance) {
+  width: 100%;
+  margin-bottom: 24px;
+  max-width: 100%;
+  object-fit: cover;
+  min-width: 0;
+}
+.textInput7:global(.__wab_instance) {
+  max-width: 100%;
+}
+.svg__vrymi {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.svg__sltN0 {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.text___2CSE {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  min-width: 100px;
+}
+.freeBox__gz6YX {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.button:global(.__wab_instance) {
+  max-width: 100%;
+}
+.svg__ns4To {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__rsd {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}

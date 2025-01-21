@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicSeparator,
   DefaultSeparatorProps
-} from "./plasmic/style_in_form/PlasmicSeparator";
+} from "./plasmic/medusa_2_3_1/PlasmicSeparator";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined

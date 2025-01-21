@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicValue,
   DefaultValueProps
-} from "./plasmic/style_in_form/PlasmicValue";
+} from "./plasmic/medusa_2_3_1/PlasmicValue";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined

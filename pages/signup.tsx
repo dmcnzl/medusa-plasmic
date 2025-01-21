@@ -2,9 +2,9 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 import { PageParamsProvider as PageParamsProvider__ } from "@plasmicapp/react-web/lib/host";
-import GlobalContextsProvider from "../components/plasmic/style_in_form/PlasmicGlobalContextsProvider";
-import { ScreenVariantProvider } from "../components/plasmic/style_in_form/PlasmicGlobalVariant__Screen";
-import { PlasmicSignUp } from "../components/plasmic/style_in_form/PlasmicSignUp";
+import GlobalContextsProvider from "../components/plasmic/medusa_2_3_1/PlasmicGlobalContextsProvider";
+
+import { PlasmicSignUp } from "../components/plasmic/medusa_2_3_1/PlasmicSignUp";
 import { useRouter } from "next/router";
 
 function SignUp() {
@@ -24,6 +24,7 @@ function SignUp() {
   // variant context providers. These wrappers may be moved to
   // Next.js Custom App component
   // (https://nextjs.org/docs/advanced-features/custom-app).
+
   return (
     <GlobalContextsProvider>
       <PageParamsProvider__
