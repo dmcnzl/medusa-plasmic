@@ -190,6 +190,7 @@ function PlasmicItem__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => ({})
       }
     ],
+
     [$props, $ctx, $refs]
   );
   const $state = useDollarState(stateSpecs, {
@@ -213,21 +214,25 @@ function PlasmicItem__RenderFunc(props: {
           property="og:title"
           content={PlasmicItem.pageMetadata.title}
         />
+
         <meta
           key="twitter:title"
           name="twitter:title"
           content={PlasmicItem.pageMetadata.title}
         />
+
         <meta
           key="description"
           name="description"
           content={PlasmicItem.pageMetadata.description}
         />
+
         <meta
           key="og:description"
           property="og:description"
           content={PlasmicItem.pageMetadata.description}
         />
+
         <meta
           key="twitter:description"
           name="twitter:description"
@@ -1207,6 +1212,7 @@ function PlasmicItem__RenderFunc(props: {
                     </Button>
                   </div>
                 ),
+
                 value: args.container42
               })}
             </div>
@@ -1398,6 +1404,7 @@ const PlasmicDescendants = {
     "productCard",
     "footer"
   ],
+
   navBar: ["navBar"],
   productBox: [
     "productBox",
@@ -1411,6 +1418,7 @@ const PlasmicDescendants = {
     "details",
     "sideEffect"
   ],
+
   columns: [
     "columns",
     "price",
@@ -1421,6 +1429,7 @@ const PlasmicDescendants = {
     "description",
     "details"
   ],
+
   price: ["price"],
   quantity: ["quantity"],
   likeButton: ["likeButton", "svg"],
@@ -1463,6 +1472,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicItem__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

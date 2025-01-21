@@ -299,6 +299,7 @@ function PlasmicEmojiValueProps__RenderFunc(props: {
             </Value>
           </Stack__>
         ),
+
         value: args.children
       })}
     </section>
@@ -320,6 +321,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicEmojiValueProps__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

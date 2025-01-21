@@ -188,6 +188,7 @@ function PlasmicSignUp__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => ""
       }
     ],
+
     [$props, $ctx, $refs]
   );
   const $state = useDollarState(stateSpecs, {
@@ -261,6 +262,7 @@ function PlasmicSignUp__RenderFunc(props: {
                       inputType: "Text Area"
                     }
                   ],
+
                   labelCol: (() => {
                     const __composite = { span: null, horizontalOnly: true };
                     __composite["span"] = 4;
@@ -362,6 +364,7 @@ function PlasmicSignUp__RenderFunc(props: {
                       plasmicStateName: "form.isSubmitting"
                     }
                   ],
+
                   [],
                   FormWrapper_Helpers ?? {},
                   child$Props
@@ -597,6 +600,7 @@ const PlasmicDescendants = {
     "textInput7",
     "button"
   ],
+
   h3: ["h3"],
   form: [
     "form",
@@ -606,6 +610,7 @@ const PlasmicDescendants = {
     "textInput7",
     "button"
   ],
+
   textInput2: ["textInput2"],
   textInput5: ["textInput5"],
   textInput6: ["textInput6"],
@@ -631,6 +636,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicSignUp__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

@@ -101,6 +101,7 @@ export type PlasmicButton__VariantsArgs = {
     | "lightGrayOutline"
     | "link"
   >;
+
   size?: SingleChoiceArg<"large" | "small" | "narrow">;
   rounded?: SingleBooleanChoiceArg<"rounded">;
   states?: SingleChoiceArg<"active">;
@@ -153,6 +154,7 @@ export interface DefaultButtonProps extends pp.BaseButtonProps {
     | "lightGrayOutline"
     | "link"
   >;
+
   size?: SingleChoiceArg<"large" | "small" | "narrow">;
   rounded?: SingleBooleanChoiceArg<"rounded">;
   states?: SingleChoiceArg<"active">;
@@ -249,6 +251,7 @@ function PlasmicButton__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => $props.isDisabled
       }
     ],
+
     [$props, $ctx, $refs]
   );
   const $state = useDollarState(stateSpecs, {
@@ -556,6 +559,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicButton__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

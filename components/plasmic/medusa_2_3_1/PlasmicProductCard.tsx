@@ -179,6 +179,7 @@ function PlasmicProductCard__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => $props.small
       }
     ],
+
     [$props, $ctx, $refs]
   );
   const $state = useDollarState(stateSpecs, {
@@ -278,6 +279,7 @@ function PlasmicProductCard__RenderFunc(props: {
                   {"New"}
                 </Button>
               ),
+
               value: args.tags
             })}
             {renderPlasmicSlot({
@@ -318,6 +320,7 @@ function PlasmicProductCard__RenderFunc(props: {
                   </div>
                 </React.Fragment>
               ),
+
               value: args.children
             })}
           </Stack__>
@@ -370,6 +373,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicProductCard__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

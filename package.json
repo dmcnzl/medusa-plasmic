@@ -13,6 +13,7 @@
     "@medusajs/medusa": "^1.20.2",
     "@medusajs/medusa-js": "^6.1.7",
     "@medusajs/product": "^0.3.9",
+    "@plasmicapp/loader-nextjs": "^1.0.410",
     "@plasmicapp/react-web": "^0.2.361",
     "@plasmicpkgs/antd5": "^0.0.261",
     "@plasmicpkgs/plasmic-basic-components": "^0.0.231",

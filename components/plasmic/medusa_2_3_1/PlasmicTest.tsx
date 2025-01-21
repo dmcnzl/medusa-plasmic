@@ -302,6 +302,7 @@ function PlasmicTest__RenderFunc(props: {
                 )}
               </DataCtxReader__>
             }
+            limit={10}
             loadingMessage={
               <DataCtxReader__>
                 {$ctx => (
@@ -317,6 +318,10 @@ function PlasmicTest__RenderFunc(props: {
                 )}
               </DataCtxReader__>
             }
+            noAutoRepeat={true}
+            noLayout={true}
+            page={2}
+            sort={"created_at"}
           >
             <DataCtxReader__>
               {$ctx => (
@@ -452,6 +457,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicTest__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

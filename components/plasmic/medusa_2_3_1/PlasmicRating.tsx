@@ -122,6 +122,7 @@ export interface DefaultRatingProps {
     | "threeHalf"
     | "fourHalf"
   >;
+
   className?: string;
 }
 
@@ -174,6 +175,7 @@ function PlasmicRating__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => $props.rating
       }
     ],
+
     [$props, $ctx, $refs]
   );
   const $state = useDollarState(stateSpecs, {
@@ -454,6 +456,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicRating__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

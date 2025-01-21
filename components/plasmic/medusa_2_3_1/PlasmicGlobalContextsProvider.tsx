@@ -14,6 +14,7 @@ export interface GlobalContextsProviderProps {
   medusaProviderProps?: Partial<
     Omit<React.ComponentProps<typeof MedusaProvider>, "children">
   >;
+
   antdConfigProviderProps?: Partial<
     Omit<React.ComponentProps<typeof AntdConfigProvider>, "children">
   >;

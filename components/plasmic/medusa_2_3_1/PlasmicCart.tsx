@@ -159,6 +159,7 @@ function PlasmicCart__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => $props.empty
       }
     ],
+
     [$props, $ctx, $refs]
   );
   const $state = useDollarState(stateSpecs, {
@@ -182,21 +183,25 @@ function PlasmicCart__RenderFunc(props: {
           property="og:title"
           content={PlasmicCart.pageMetadata.title}
         />
+
         <meta
           key="twitter:title"
           name="twitter:title"
           content={PlasmicCart.pageMetadata.title}
         />
+
         <meta
           key="description"
           name="description"
           content={PlasmicCart.pageMetadata.description}
         />
+
         <meta
           key="og:description"
           property="og:description"
           content={PlasmicCart.pageMetadata.description}
         />
+
         <meta
           key="twitter:description"
           name="twitter:description"
@@ -872,6 +877,7 @@ function PlasmicCart__RenderFunc(props: {
                                     </div>
                                   </Button>
                                 ),
+
                                 value: args.slot3
                               })
                             : null}
@@ -1080,6 +1086,7 @@ const PlasmicDescendants = {
     "svg",
     "footer"
   ],
+
   navBar: ["navBar"],
   cartProvider: ["cartProvider", "section", "cartItem", "separator", "svg"],
   section: ["section", "cartItem", "separator", "svg"],
@@ -1107,6 +1114,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicCart__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

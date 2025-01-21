@@ -177,6 +177,7 @@ function PlasmicLogin__RenderFunc(props: {
         onMutate: generateOnMutateForSpec("value", AntdInput_Helpers)
       }
     ],
+
     [$props, $ctx, $refs]
   );
   const $state = useDollarState(stateSpecs, {
@@ -250,6 +251,7 @@ function PlasmicLogin__RenderFunc(props: {
                       inputType: "Text Area"
                     }
                   ],
+
                   labelCol: (() => {
                     const __composite = { span: null, horizontalOnly: true };
                     __composite["span"] = 4;
@@ -369,6 +371,7 @@ function PlasmicLogin__RenderFunc(props: {
                       plasmicStateName: "form.isSubmitting"
                     }
                   ],
+
                   [],
                   FormWrapper_Helpers ?? {},
                   child$Props
@@ -422,6 +425,7 @@ function PlasmicLogin__RenderFunc(props: {
                               plasmicStateName: "input.value"
                             }
                           ],
+
                           [],
                           AntdInput_Helpers ?? {},
                           child$Props
@@ -479,6 +483,7 @@ function PlasmicLogin__RenderFunc(props: {
                               plasmicStateName: "input2.value"
                             }
                           ],
+
                           [],
                           AntdInput_Helpers ?? {},
                           child$Props
@@ -542,6 +547,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicLogin__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

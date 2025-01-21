@@ -179,6 +179,7 @@ function PlasmicValue__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => $props.withButton
       }
     ],
+
     [$props, $ctx, $refs]
   );
   const $state = useDollarState(stateSpecs, {
@@ -320,6 +321,7 @@ function PlasmicValue__RenderFunc(props: {
               </div>
             </React.Fragment>
           ),
+
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
             [sty.slotTargetChildrencenter]: hasVariant(
@@ -371,6 +373,7 @@ function PlasmicValue__RenderFunc(props: {
                 {"Read our letter"}
               </Button>
             ),
+
             value: args.children2,
             className: classNames(sty.slotTargetChildren2, {
               [sty.slotTargetChildren2center]: hasVariant(
@@ -408,6 +411,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicValue__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

@@ -179,6 +179,7 @@ function PlasmicNavBar__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => ""
       }
     ],
+
     [$props, $ctx, $refs]
   );
   const $state = useDollarState(stateSpecs, {
@@ -491,6 +492,7 @@ const PlasmicDescendants = {
     "cartButton",
     "text"
   ],
+
   homeButton: ["homeButton"],
   searchButton: ["searchButton"],
   searchInput: ["searchInput"],
@@ -522,6 +524,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicNavBar__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

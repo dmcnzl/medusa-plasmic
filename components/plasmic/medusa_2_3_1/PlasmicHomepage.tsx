@@ -185,6 +185,7 @@ function PlasmicHomepage__RenderFunc(props: {
           })()
       }
     ],
+
     [$props, $ctx, $refs]
   );
   const $state = useDollarState(stateSpecs, {
@@ -208,21 +209,25 @@ function PlasmicHomepage__RenderFunc(props: {
           property="og:title"
           content={PlasmicHomepage.pageMetadata.title}
         />
+
         <meta
           key="twitter:title"
           name="twitter:title"
           content={PlasmicHomepage.pageMetadata.title}
         />
+
         <meta
           key="description"
           name="description"
           content={PlasmicHomepage.pageMetadata.description}
         />
+
         <meta
           key="og:description"
           property="og:description"
           content={PlasmicHomepage.pageMetadata.description}
         />
+
         <meta
           key="twitter:description"
           name="twitter:description"
@@ -533,6 +538,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 )}
               </DataCtxReader__>
             </ProductCollection>
+            <div className={classNames(projectcss.all, sty.freeBox__xSv41)} />
           </section>
           <section className={classNames(projectcss.all, sty.section___7Bqno)}>
             <Stack__
@@ -818,6 +824,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     </Button>
                   </div>
                 ),
+
                 value: args.container42
               })}
             </div>
@@ -1739,6 +1746,7 @@ const PlasmicDescendants = {
     "container433",
     "footer"
   ],
+
   navBar: ["navBar"],
   container3: ["container3", "h1"],
   h1: ["h1"],
@@ -1780,6 +1788,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicHomepage__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {

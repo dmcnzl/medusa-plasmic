@@ -152,21 +152,25 @@ function PlasmicCategory__RenderFunc(props: {
           property="og:title"
           content={PlasmicCategory.pageMetadata.title}
         />
+
         <meta
           key="twitter:title"
           name="twitter:title"
           content={PlasmicCategory.pageMetadata.title}
         />
+
         <meta
           key="description"
           name="description"
           content={PlasmicCategory.pageMetadata.description}
         />
+
         <meta
           key="og:description"
           property="og:description"
           content={PlasmicCategory.pageMetadata.description}
         />
+
         <meta
           key="twitter:description"
           name="twitter:description"
@@ -950,6 +954,7 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicCategory__OverridesType,
   DescendantsType<T>
 >;
+
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {
